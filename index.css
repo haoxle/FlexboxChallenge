@@ -1,0 +1,55 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.head {
+  display: flex;
+  height: 40px;
+  font-size: 20px;
+}
+
+#links {
+  background-color: black;
+  width: 70%;
+  text-align: center;
+  padding: 5px;
+}
+
+#nology {
+  background-color: green;
+  width: 30%;
+  text-align: center;
+  padding: 5px;
+}
+
+.lefthandcolumn {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+#firstrow {
+  border: 5px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 55%;
+  justify-content: space-evenly;
+  height: 150px;
+}
+
+h1 {
+  background-color: black;
+  width: 80px;
+  height: 80px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
